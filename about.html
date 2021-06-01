@@ -21,6 +21,17 @@
       font-weight: 600;
       margin-bottom: 20px;
     }
+    header{
+      padding: 30px 30px 30px 50px;
+    }
+    header a.title{
+      font-size: 30px;
+      color: black;
+    }
+    header a.title:hover{
+      font-size: 30px;
+      color: #e6060d;
+    }
     .description{
       text-align: justify;
       text-justify: inter-word;
@@ -60,15 +71,16 @@
       
       <header class="site-navbar py-2 sticky-top site-navbar-target" role="banner">
         
-        <div class="container">
+        <div>
           <div class="row align-items-center">
             
-            <div class="col-11 col-xl-2">
-              <a href="index.html">
+            <div class="col-md-7">
+              <a href="index.html" class="title">
                 <img src="images/icon.png" width="90px" height="90px">
+                AL AWAN DELIVERY SERVICES
               </a>
             </div>
-            <div class="col-12 col-md-10 d-none d-xl-block">
+            <div class=" col-md-5 d-none d-xl-block">
               <nav class="site-navigation position-relative text-right" role="navigation">
                 
                 <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
@@ -80,7 +92,7 @@
               </nav>
             </div>
             
-            <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span><i class="fas fa-bars"></i></a></div>
+            <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: absolute; right: 30px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span><i class="fas fa-bars"></i></a></div>
           </div>
         </div>
       </header>

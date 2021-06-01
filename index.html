@@ -22,6 +22,17 @@
       margin-top:-200px;
       /* background: rgba(0, 0, 0, 0.2); */
     }
+    header{
+      padding: 30px 30px 30px 50px;
+    }
+    header a.title{
+      font-size: 30px;
+      color: black;
+    }
+    header a.title:hover{
+      font-size: 30px;
+      color: #e6060d;
+    }
     .slogan{
       font-size: 1.7em;
       background: #ed8a37;
@@ -77,15 +88,16 @@
       
       <header class="site-navbar py-2 sticky-top site-navbar-target" role="banner">
         
-        <div class="container">
+        <div>
           <div class="row align-items-center">
             
-            <div class="col-11 col-xl-2">
-              <a href="index.html">
+            <div class="col-md-7">
+              <a href="index.html" class="title">
                 <img src="images/icon.png" width="90px" height="90px">
+                AL AWAN DELIVERY SERVICES
               </a>
             </div>
-            <div class="col-12 col-md-10 d-none d-xl-block">
+            <div class=" col-md-5 d-none d-xl-block">
               <nav class="site-navigation position-relative text-right" role="navigation">
                 
                 <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
@@ -97,7 +109,7 @@
               </nav>
             </div>
             
-            <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span><i class="fas fa-bars"></i></a></div>
+            <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: absolute; right: 30px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span><i class="fas fa-bars"></i></a></div>
           </div>
         </div>
       </header>
@@ -107,9 +119,9 @@
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
               <div class="row justify-content-center mb-4">
-                <div class="col-md-12 text-center title">
+                <!-- <div class="col-md-12 text-center title">
                   <h1>AL AWAN DELIVERY SERVICES L.L.C</h1>
-                </div>
+                </div> -->
               </div>
               <!-- <div class="slogan">
                 We provide dedicated, integrated, express road freight services.
